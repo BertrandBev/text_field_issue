@@ -1,16 +1,9 @@
 # text_field
 
-A new Flutter project.
+An issue with the `TextField` widget cursor on Flutter Web
 
-## Getting Started
+<img src="https://github.com/BertrandBev/text_field_issue/blob/master/doc/example.gif">
 
-This project is a starting point for a Flutter application.
+Here, a regular text widget shows the content of the `TextField`, swapping *spaces* with *bullet points* for clarity
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The issue occurs when moving the cursor around with the mouse, and then adding *spaces*. Text input works normally, but the cursor seemingly gets stuck
